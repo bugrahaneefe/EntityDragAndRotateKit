@@ -10,6 +10,10 @@ A lightweight Swift package for **visionOS** that makes your entity draggable an
 - ✅ Easily attach to any `View` using SwiftUI modifiers
 - 💡 Designed for **visionOS** apps using `RealityKit`
 
+## Usage
+
+- RealityView { ... }..enableMovingEntity('yourModelEntity' ?? ModelEntity())
+
 ## 🔧 Requirements
 
 - visionOS 1.0+
